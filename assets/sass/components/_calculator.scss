@@ -1,14 +1,27 @@
 .calculator {
   min-width: 320px;
+  height: max-content;
 
   // min-height: 500px;
 
-  background-color: azure;
+  background-color: burlywood;
 
   display: grid;
   grid-template: repeat(6, 100px) / repeat(4, 100px);
 
-  & input {
+  &__display {
     grid-area: 1 / 1 / 2 / 5;
+    background-color: lightgray;
+  }
+
+  &__button {
+
+    &--cero{
+      grid-area: 6 / 1 / 7 / 3;
+    }
+    
+    &--equal{
+      grid-area: 5 / 4 / 7 / 5;
+    }
   }
 }

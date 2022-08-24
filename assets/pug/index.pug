@@ -4,29 +4,29 @@ block content
   main.main-container
     .calculator 
       // fila 1
-      input(type="text")
+      p.calculator__display#display disp
       // fila 2
-      button( value="X") X
-      button( value="C") C
-      button( value="/") /
-      button( value="*") *
+      button.calculator__button#c C
+      button.calculator__button#back del
+      button.calculator__button#division /
+      button.calculator__button#multiplication *
       // fila 3
-      button( value="7") 7
-      button( value="8") 8
-      button( value="9") 9
-      button( value="-") -
+      button.calculator__button#7(value="7") 7
+      button.calculator__button#8(value="8") 8
+      button.calculator__button#9(value="9") 9
+      button.calculator__button#subtraction -
       // fila 4
-      button( value="4") 4
-      button( value="5") 5
-      button( value="6") 6
-      button( value="+") +
+      button.calculator__button#4(value="4") 4
+      button.calculator__button#5(value="5") 5
+      button.calculator__button#6(value="6") 6
+      button.calculator__button#addition +
       // fila 5
-      button( value="1") 1
-      button( value="2") 2
-      button( value="3") 3
-      button( value="=") =
+      button.calculator__button#1(value="1") 1
+      button.calculator__button#2(value="2") 2
+      button.calculator__button#3(value="3") 3
+      button.calculator__button.calculator__button--equal#equal =
       // fila 6
-      button( value="3") 0
-      button( value="3") ,
+      button.calculator__button.calculator__button--cero#0(value="0") 0
+      button.calculator__button#comma(value=",") ,
 
 

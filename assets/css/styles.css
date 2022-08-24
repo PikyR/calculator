@@ -21,12 +21,20 @@ body {
 
 .calculator {
   min-width: 320px;
-  background-color: azure;
+  height: max-content;
+  background-color: burlywood;
   display: grid;
   grid-template: repeat(6, 100px)/repeat(4, 100px);
 }
-.calculator input {
+.calculator__display {
   grid-area: 1/1/2/5;
+  background-color: lightgray;
+}
+.calculator__button--cero {
+  grid-area: 6/1/7/3;
+}
+.calculator__button--equal {
+  grid-area: 5/4/7/5;
 }
 
 /*# sourceMappingURL=styles.css.map */
