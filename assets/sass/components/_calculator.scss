@@ -1,0 +1,14 @@
+.calculator {
+  min-width: 320px;
+
+  // min-height: 500px;
+
+  background-color: azure;
+
+  display: grid;
+  grid-template: repeat(6, 100px) / repeat(4, 100px);
+
+  & input {
+    grid-area: 1 / 1 / 2 / 5;
+  }
+}

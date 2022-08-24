@@ -8,8 +8,25 @@ html {
 }
 
 body {
-  font-size: 1.6rem;
-  background-color: bisque;
+  font-size: 2rem;
+}
+
+.main-container {
+  width: 100vw;
+  height: 100vh;
+  margin: auto 0;
+  display: flex;
+  justify-content: center;
+}
+
+.calculator {
+  min-width: 320px;
+  background-color: azure;
+  display: grid;
+  grid-template: repeat(6, 100px)/repeat(4, 100px);
+}
+.calculator input {
+  grid-area: 1/1/2/5;
 }
 
 /*# sourceMappingURL=styles.css.map */
